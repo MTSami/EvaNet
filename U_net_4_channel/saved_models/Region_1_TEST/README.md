@@ -1,6 +1,6 @@
 # EvaNet
 
-![alt text](https://github.com/mtsami/EvaNet/blob/main/architecture.png?raw=true)
+![alt text](https://github.com/mtsami/EvaNet/blob/master/architecture.png?raw=true)
 
 ## Abstract
 <p align="justify">
