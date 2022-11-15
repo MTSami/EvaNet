@@ -71,7 +71,7 @@ python data_maker.py
 The run.ipynb (jupyter notebook) file can be used to train and test the different models.
 
 
-## Alternatively
+### Alternatively
 ### Training
 Please change directory to the model root directory, then:
 ```
