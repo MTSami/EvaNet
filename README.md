@@ -33,11 +33,13 @@ for U-Net in existing solutions to flood extent mapping.
 
 ## Quantitative Results
 
-| EvaNet |        | U-Net  |        |
-| :---:  | :---:  | :---:  | :---:  |
-|   Dry  |  Flood |   Dry  |  Flood |
-| EvaNet          | U-Net           |
-| 1      |     2  | 3      |    3   |
+|          | EvaNet | 4 Channel Input | U-Net  | 3 Channel Input | U-Net | 4 Channel Input |
+|   :---:  | :---:  |     :---:       | :---:  |     :---:       | :---: |      :---:      |
+|          |  Dry   |     Flood       |  Dry   |     Flood       |  Dry  |      Flood      |
+| Accuracy | 1      |     2           |  3     |    4            |       |   6             |
+| Precision | 1      |     2           |  3     |    4            |       |   6             |
+| Recall | 1      |     2           |  3     |    4            |       |   6             |
+| F1-Score | 1      |     2           |  3     |    4            |       |   6             |
 
 
 
