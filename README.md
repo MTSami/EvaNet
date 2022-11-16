@@ -34,12 +34,12 @@ for U-Net in existing solutions to flood extent mapping.
 ## Quantitative Results
 
 |               |Elevation 4-Channel Input |-|U-Net 3-Channel Input   |-|U-Net 4-Channel Input  |-|
-|     :---      | :---:  |     :---:       | :---:  |     :---:       | :---: |      :---:      |
-|               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry  |      Flood      |
-| **Accuracy**  | 95.805 |     95.805      | 88.076 |    88.076       |   5   |   6             |
-| **Precision** | 95.018 |     97.102      | 92.682 |    82.075       |  5    |   6             |
-| **Recall**    | 98.182 |     92.208      | 87.073 |    89.594       |    5  |   6             |
-| **F1-Score**  | 96.574 |     94.592      | 89.789 |    85.669       |   5   |   6             |
+|     :---      | :---:  |     :---:       | :---:  |     :---:       | :---:  |      :---:      |
+|               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry   |      Flood      |
+| **Accuracy**  | **95.805** |     **95.805**      | 88.076 |    88.076       | 94.927 |     94.927      |
+| **Precision** | 95.018 |     **97.102**      | 92.682 |    82.075       | **95.452** |     94.116      |
+| **Recall**    | **98.182** |     92.208      | 87.073 |    89.594       | 96.156 |     **93.066**      |
+| **F1-Score**  | **96.574** |     **94.592**      | 89.789 |    85.669       | 95.803 |     93.588      |
 
 ## Qualitative Results
 
