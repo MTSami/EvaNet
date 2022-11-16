@@ -32,7 +32,7 @@ for U-Net in existing solutions to flood extent mapping.
 </p>
 
 ## Quantitative Results
-|               |         |                |        |                 |       |                 |
+|     :---      | :---:  |     :---:       | :---:  |     :---:       | :---: |      :---:      |
 |<td colspan=1>  <td colspan=2>EvaNet 4 Channel Input <td colspan=2>U-Net 3 Channel Input <td colspan=2>U-Net 4 Channel Input
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---: |      :---:      |
 |               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry  |      Flood      |
