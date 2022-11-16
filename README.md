@@ -33,7 +33,7 @@ for U-Net in existing solutions to flood extent mapping.
 
 ## Quantitative Results
 
-|               |Elevation 4-Channel Input |-|U-Net 3-Channel Input   |-|U-Net 4-Channel Input  |-|
+|               |Elevation 4-Channel Input |Elevation 4-Channel Input|U-Net 3-Channel Input   |U-Net 3-Channel Input|U-Net 4-Channel Input  |U-Net 4-Channel Input|
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---:  |      :---:      |
 |               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry   |      Flood      |
 | **Accuracy**  | **95.805** |     **95.805**      | 88.076 |    88.076       | 94.927 |     94.927      |
