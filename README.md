@@ -33,8 +33,8 @@ for U-Net in existing solutions to flood extent mapping.
 
 ## Quantitative Results
 
-| Dry | Flood || Dry | Flood |
-| --- | --- |
+| Dry | Flood | Dry | Flood |
+| --- | --- | --- | --- |
 | EvaNet | U-Net |
 | --- | --- |
 | `git status` | List all *new or modified* files |
