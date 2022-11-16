@@ -31,6 +31,15 @@ baselines, and works as a prefect drop-in replacement
 for U-Net in existing solutions to flood extent mapping.
 </p>
 
+## Quantitative Results
+
+| Dry | Flood || Dry | Flood |
+| --- | --- |
+| EvaNet | U-Net |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
 ## Installation
 ### Requirements
 * Linux
