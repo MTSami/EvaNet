@@ -42,7 +42,7 @@ for U-Net in existing solutions to flood extent mapping.
 | **F1-Score**  | **96.574** |     **94.592**      | 89.789 |    85.669       | 95.803 |     93.588      |
 
 ## Qualitative Results
-
+Below, the predicted flood region (red) for each model is illustrated. 
 ![alt text](https://github.com/mtsami/EvaNet/blob/master/Results.png?raw=true)
 
 ## Installation
