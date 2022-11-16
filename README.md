@@ -32,6 +32,7 @@ for U-Net in existing solutions to flood extent mapping.
 </p>
 
 ## Quantitative Results
+Note: 4-Channel input refers to (RGB+Elevation) data provided as input to model, whereas 3-Channel input refers to just RGB data.
 
 |               |Elevation 4-Channel Input |Elevation 4-Channel Input|U-Net 3-Channel Input   |U-Net 3-Channel Input|U-Net 4-Channel Input  |U-Net 4-Channel Input|
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---:  |      :---:      |
