@@ -36,9 +36,9 @@ for U-Net in existing solutions to flood extent mapping.
 | EvaNet | U-Net |
 | --- | --- | --- | --- |
 | Dry | Flood | Dry | Flood |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| --- | --- | --- | --- |
+| `Accuracy` | 1 | 1 | 1 |
+
 
 ## Installation
 ### Requirements
