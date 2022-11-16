@@ -105,7 +105,7 @@ python main.py --mode testing
                --test_region Region_2_TEST
                --saved_model_epoch 135
                --out_dir /output
-               --save_model_dir /saved_models
+               --saved_model_dir /saved_models
 ```
 NOTE:
 - --out_dir is where the model predictions are saved.
