@@ -32,6 +32,7 @@ for U-Net in existing solutions to flood extent mapping.
 </p>
 
 ## Quantitative Results
+Note: 4-Channel input refers to (RGB+Elevation) data provided as input to model, whereas 3-Channel input refers to just RGB data.
 
 |               |Elevation 4-Channel Input |Elevation 4-Channel Input|U-Net 3-Channel Input   |U-Net 3-Channel Input|U-Net 4-Channel Input  |U-Net 4-Channel Input|
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---:  |      :---:      |
@@ -42,7 +43,7 @@ for U-Net in existing solutions to flood extent mapping.
 | **F1-Score**  | **96.574** |     **94.592**      | 89.789 |    85.669       | 95.803 |     93.588      |
 
 ## Qualitative Results
-
+Below, the predicted flood region (red) for each model is illustrated. 
 ![alt text](https://github.com/mtsami/EvaNet/blob/master/Results.png?raw=true)
 
 ## Installation
