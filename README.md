@@ -33,6 +33,7 @@ for U-Net in existing solutions to flood extent mapping.
 
 ## Quantitative Results
 |               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry  |      Flood      |
+|-|-|-|-|-|-|-
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---: |      :---:      |
 |               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry  |      Flood      |
 | **Accuracy**  | 1      |     2           |  3     |    4            |   5   |   6             |
