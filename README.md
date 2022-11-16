@@ -41,7 +41,9 @@ for U-Net in existing solutions to flood extent mapping.
 | **Recall**    | 1      |     2           |  3     |    4            |    5  |   6             |
 | **F1-Score**  | 1      |     2           |  3     |    4            |   5   |   6             |
 
+## Qualitative Results
 
+![alt text](https://github.com/mtsami/EvaNet/blob/master/architecture.png?raw=true)
 
 ## Installation
 ### Requirements
@@ -85,7 +87,7 @@ The run.ipynb (jupyter notebook) file can be used to train and test the differen
 
 ### Alternatively
 ### Training
-Please change directory to the model root directory, then:
+Please change directory to the model root directory. For example, to train EvaNet `cd ./Eva_Net_4_channel` then run:
 ```
 python main.py --mode training
                --train_region Region_1_3_TRAIN
