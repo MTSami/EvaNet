@@ -36,7 +36,7 @@ for U-Net in existing solutions to flood extent mapping.
 | EvaNet |        | U-Net  |        |
 | :---:  | :---:  | :---:  | :---:  |
 |   Dry  |  Flood |   Dry  |  Flood |
-| EvaNet |        | U-Net  |        |
+| EvaNet          | U-Net           |
 | 1      |     2  | 3      |    3   |
 
 
