@@ -43,7 +43,7 @@ for U-Net in existing solutions to flood extent mapping.
 
 ## Qualitative Results
 
-![alt text](https://github.com/mtsami/EvaNet/blob/master/architecture.png?raw=true)
+![alt text](https://github.com/mtsami/EvaNet/blob/master/Results.png?raw=true)
 
 ## Installation
 ### Requirements
