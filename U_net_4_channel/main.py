@@ -250,7 +250,7 @@ def main(args):
     
     if args.mode == 'training':
         print("Model in Training mode")
-        model_path = f"./{args.save_model_dir}/{args.test_region}/saved_model_{args.saved_model_epoch}.ckpt"
+        model_path = f"./{args.saved_model_dir}/{args.test_region}/saved_model_{args.saved_model_epoch}.ckpt"
 
         if os.path.exists(model_path):
             checkpoint = torch.load(model_path)
@@ -345,7 +345,7 @@ def main(args):
                     torch.save({'epoch': epoch + 1,  # when resuming, we will start at the next epoch
                                 'model': model.state_dict(),
                                 'optimizer': optimizer.state_dict()}, 
-                                f"./{args.save_model_dir}/{args.test_region}/saved_model_{epoch+1}.ckpt")
+                                f"./{args.saved_model_dir}/{args.test_region}/saved_model_{epoch+1}.ckpt")
         
             
                 ### Save model Periodically, every multiple of 2
@@ -354,11 +354,11 @@ def main(args):
                                 'model': model.state_dict(),
                                 'optimizer': optimizer.state_dict()
                                 }, 
-                                f"./{args.save_model_dir}_{epoch+1}.ckpt")
+                                f"./{args.saved_model_dir}_{epoch+1}.ckpt")
 
     else:
         print("Model in Inference mode \n")
-        model_path = f"./{args.save_model_dir}/{args.test_region}/saved_model_{args.saved_model_epoch}.ckpt"
+        model_path = f"./{args.saved_model_dir}/{args.test_region}/saved_model_{args.saved_model_epoch}.ckpt"
         
         if os.path.exists(model_path):
             checkpoint = torch.load(model_path)
@@ -405,21 +405,21 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser('Running EvaNet')
     
-    parser.add_argument('--mode', type=str, required = True, help="--mode can 'training' or 'testing' ")
+    parser.add_argument('--mode', type=str, required = True, help="--mode can be 'training' or 'testing' ")
     parser.add_argument('--data_path', default = "./data/repo/FloodNetData" , type=str, help="--data_path is the path to the dataset ")
-    parser.add_argument('--train_region', default = "Region_1_3_TRAIN" , type=str, help="Which two regions to use for training")
+    parser.add_argument('--train_region', default = "Region_1_3_TRAIN" , type=str, help="Which two regions to use for training; Region_1_3_TRAIN means Region_1 and Region_3 for training")
     parser.add_argument('--test_region', default = "Region_2_TEST" , type=str, help="Which region to use for testing")
     parser.add_argument('--batch_size', default = 4 , type = int, help = "Image patches per batch")
     parser.add_argument('--input_channel', default = 4 , type = int, help = "Input Channel of Image")
     parser.add_argument('--pred_channel', default = 3 , type = int, help = "No. of channels in output prediction")
-    parser.add_argument('--epochs', default = 350 , type = int, help = "No. of epochs to train model")
-    parser.add_argument('--val_freq', default = 10 , type = int, help = "No. times to run evaluation during training")
-    parser.add_argument('--save_freq', default = None , type = int, help = "No. times to save model during training")
+    parser.add_argument('--epochs', default = 200 , type = int, help = "No. of epochs to train model")
+    parser.add_argument('--val_freq', default = 10 , type = int, help = "No. of times to run evaluation during training")
+    parser.add_argument('--save_freq', default = None , type = int, help = "No. of times to save model during training")
     parser.add_argument('--small_model', default = True , type = bool, help = "3-Layer vs 4_Layer model")
     parser.add_argument('--lr', default = 1e-6 , type = float, help = "model learning rate")
-    parser.add_argument('--saved_model_epoch', default = 250 , type = int, help = "The epoch of the last saved model")
+    parser.add_argument('--saved_model_epoch', default = 0 , type = int, help = "The epoch of the last saved model")
     parser.add_argument('--out_dir', default = "./output" , type = str, help = "Output directory of model")
-    parser.add_argument('--save_model_dir', default = "./saved_models" , type = str, help = "Directory for saved model")
+    parser.add_argument('--saved_model_dir', default = "./saved_models" , type = str, help = "Directory for saved model")
     
     
     args = parser.parse_args()
