@@ -44,7 +44,7 @@ Note: 4-Channel input refers to (RGB+Elevation) data provided as input to model,
 
 ## Qualitative Results
 Below, the predicted flood region (red) for each model is illustrated. 
-![alt text](https://ik.imagekit.io/lur4324m4/Results.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668633366444)?raw=true)
+![alt text](https://ik.imagekit.io/lur4324m4/Results.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668633366444?raw=true)
 
 ## Installation
 ### Requirements
@@ -110,4 +110,4 @@ python main.py --mode testing
 ```
 NOTE:
 - --out_dir is where the model predictions are saved.
-- --save_model_dir is the folder where model weights are saved.
+- --saved_model_dir is the folder where model weights are saved.
