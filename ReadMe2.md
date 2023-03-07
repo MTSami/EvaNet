@@ -34,10 +34,10 @@ Note: 7-Channel input refers to (Disaster time RGB+Elevation+Normal time RGB), 4
 
 |               |EvaNet 7-Channel Input |EvaNet 4-Channel Input|U-Net 7-Channel Input   |U-Net 4-Channel Input|U-Net 3-Channel Input  |
 |     :---      | :---:  |     :---:       | :---:  |     :---:       | :---:  |      :---:      |
-|               |  Dry   |     Flood       |  Dry   |     Flood       |  Dry   |      Flood      |
+|               |  Dry       |     Flood           |  Dry   |     Flood       |  Dry   |      Flood      |
 | **Accuracy**  | **95.805** |     **95.805**      | 88.076 |    88.076       | 94.927 |
-| **Precision** | 95.018 |     **97.102**      | 92.682 |    82.075       | **95.452** |
-| **Recall**    | **98.182** |     92.208      | 87.073 |    89.594       | 96.156 |
+| **Precision** | 95.018     |     **97.102**      | 92.682 |    82.075       | **95.452** |
+| **Recall**    | **98.182** |     92.208          | 87.073 |    89.594       | 96.156 |
 | **F1-Score**  | **96.574** |     **94.592**      | 89.789 |    85.669       | 95.803 |
 
 ## Qualitative Results
