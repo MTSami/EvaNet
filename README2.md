@@ -42,7 +42,7 @@ Note: 7-C (Channel) input refers to (Disaster time RGB+Elevation+Normal time RGB
 
 ## Qualitative Results
 Below, the predicted flood region (red) for each model is illustrated. 
-![alt text](https://ik.imagekit.io/lur4324m4/Results.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668633366444?raw=true)
+![alt text](https://ik.imagekit.io/lur4324m4/Results_2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678232893516?raw=true)
 
 ## Installation
 ### Requirements
