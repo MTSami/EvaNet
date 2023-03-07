@@ -1,4 +1,4 @@
-# EvaNet
+# EvaU-Net
 
 ![alt text](https://ik.imagekit.io/lur4324m4/architecture.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668633357848?raw=true)
 
