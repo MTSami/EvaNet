@@ -32,7 +32,7 @@ for U-Net in existing solutions to flood extent mapping.
 ## Quantitative Results
 Note: 7-Channel input refers to (Disaster time RGB+Elevation+Normal time RGB), 4-Channel (Disaster time RGB+Elevation), and 3-Channel input refers to just Disaster time RGB data.
 
-|            |EvaNet 7-Channel Input            |EvaNet 4-Channel Input    |U-Net 7-Channel Input     |U-Net 4-Channel Input|U-Net 3-Channel Input | |
+|            |EvaNet 7-Channel Input            ||EvaNet 4-Channel Input    |U-Net 7-Channel Input     |U-Net 4-Channel Input|U-Net 3-Channel Input | |
 |     :---      | :---:      |     :---:           | :---:  |     :---:       | :---:  |       ---:      |
 |               |  Dry       |     Flood           |  Dry   |     Flood       |  Dry   |      Flood      |
 | **Accuracy**  | **95.805** |     **95.805**      | 88.076 |    88.076       | 94.927 |
