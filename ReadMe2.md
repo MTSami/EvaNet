@@ -91,7 +91,7 @@ The main.ipynb (jupyter notebook) file can be used to train and test the model.
 Please change directory to the model root directory. For example, to train EvaNet `cd ./Eva_U-Net` then run:
 ```
 python main.py --mode training
-               --train_region Region_1_2_TRAIN
+               --train_region Region_1-2_TRAIN
                --epochs 100
                --lr 1e-7
                --val_freq 1
