@@ -33,12 +33,12 @@ for U-Net in existing solutions to flood extent mapping.
 Note: 7-C (Channel) input refers to (Disaster time RGB+Elevation+Normal time RGB), 4-C (Disaster time RGB+Elevation), and 3-Channel input refers to just Disaster time RGB data.
 
 |               |EvaNet 7-C |EvaNet 7-C  | U-Net 7-C | U-Net 7-C | U-Net 3-C| U-Net 3-C|
-|     :---      | :---:     |     :---:  | :---:     |   :---:   | :---:   |       ---:  |
-|               |  Dry      |     Flood  |  Dry      |  Flood    |  Dry    |      Flood  |
-| **Accuracy**  | **96.14** | **96.145** | 94.94     |   94.94   | 94.927  |             |
-| **Precision** | **98.13** |   92.022   | 95.91     | **92.76** | 90.93   | 91.830      |
-| **Recall**    | 96.22     | **95.96**  | **96.77** |   90.93   | 96.156  |     0       |
-| **F1-Score**  | **97.16** | **93.952** | 96.34     |   91.83   | 95.803  |    0        |
+|     :---      | :---:     |     :---:  | :---:     |   :---:   | :---:   |    ---:  |
+|               |  Dry      |     Flood  |  Dry      |  Flood    |  Dry    |   Flood  |
+| **Accuracy**  | **96.14** | **96.145** | 94.94     |   94.94   | 81.26   |  81.26   |
+| **Precision** | **98.13** |   92.022   | 95.91     | **92.76** | 95.48   |  63.90   |
+| **Recall**    | 96.22     | **95.96**  | **96.77** |   90.93   | 76.34   |  92.05   |
+| **F1-Score**  | **97.16** | **93.952** | 96.34     |   91.83   | 84.85   |  75.44   |
 
 ## Qualitative Results
 Below, the predicted flood region (red) for each model is illustrated. 
