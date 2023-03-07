@@ -68,25 +68,27 @@ Data must be organized in the following manner for all models:
 model/
   --data/
     --repo/
-      --FloodNetData/
+      --Features_7_Channels/
         --Region_1_Features7Channel.npy
-        --Region_1_labels.npy
+        --...
+      --groundTruths/
+      --Region_1_GT_Labels.npy
         --...
 ```
 
 To process data for EvaNet, run the following:
 ```
-cd ./Eva_Net_4_channel/data
+cd ./Eva_U-Net/data
 python data_maker.py
 ```
 
 ## Train and test models
-The run.ipynb (jupyter notebook) file can be used to train and test the different models.
+The main.ipynb (jupyter notebook) file can be used to train and test the model.
 
 
 ### Alternatively
 ### Training
-Please change directory to the model root directory. For example, to train EvaNet `cd ./Eva_Net_4_channel` then run:
+Please change directory to the model root directory. For example, to train EvaNet `cd ./Eva_U-Net` then run:
 ```
 python main.py --mode training
                --train_region Region_1_2_TRAIN
