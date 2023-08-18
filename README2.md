@@ -39,7 +39,7 @@ conda activate elev
 
 ## Usage
 ### Data Preparation
-Please download dataset from https://uab.box.com/s/8btnh6o9e3fuwezbe8oievbmwescewsj
+Please download dataset from https://drive.google.com/file/d/1CMVh2OE_1UZiMA9vQ8Q24_B4gCjN-aCG/view?usp=sharing
 
 Data must be organized in the following manner for all models:
 ```
