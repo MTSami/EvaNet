@@ -30,7 +30,7 @@ features flow through adjacent layers. Extensive
 experiments show that EvaNet significantly outper-
 forms the U-Net baselines, and works as a perfect
 drop-in replacement for U-Net in existing solutions
-to flood extent mapping. Full paper with an extended appendix is available at: [https://uab.box.com/s/rjglwac0qswq13tlvi9axztqicc31lgp](https://github.com/MTSami/EvaNet/blob/master/full_version_with_appendix.pdf)
+to flood extent mapping. Full paper with an extended appendix is available at: (https://github.com/MTSami/EvaNet/blob/master/full_version_with_appendix.pdf)
 </p>
 
 ## Quantitative Results
