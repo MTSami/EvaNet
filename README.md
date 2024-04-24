@@ -4,31 +4,33 @@
 
 ## Abstract
 <p align="justify">
-High-resolution optical imagery becomes increasingly
-available with the wide deployment of satellites and drones,
-and accurate and timely mapping of flood extent from the
-imagery plays a crucial role in disaster management such
-as damage assessment and relief activities. However, the
-current state-of-the-art solutions to this problem are based
-on U-Net, which cannot segment the flood pixels accurately
-due to the ambiguous pixels (e.g., tree canopies,
-clouds) that prevent a direct judgement from only the spectral
-features. Thanks to the digital elevation model (DEM)
-data readily available from sources such as United States
-Geological Survey (USGS), this work explores the use of
-an elevation map to improve flood extent mapping. We
-propose, EvaNet, an elevation-guided segmentation model
-based on the encoder-decoder architecture with two novel
-techniques: (1) a loss function encoding the physical law of
-gravity that if a location is flooded (resp. dry), then its adjacent
-locations with a lower (resp. higher) elevation must
-also be flooded (resp. dry); (2) convolution operations utilizing
-the elevation map to provide a location-sensitive gating
-mechanism following GLU to regulate how much spectral
-features flow through adjacent layers. Extensive experiments
-show that EvaNet significantly outperforms the UNet
-baselines, and works as a prefect drop-in replacement
-for U-Net in existing solutions to flood extent mapping.
+Accurate and timely mapping of flood extent from
+high-resolution satellite imagery plays a crucial
+role in disaster management such as damage assess-
+ment and relief activities. However, current state-
+of-the-art solutions are based on U-Net, which can-
+not segment the flood pixels accurately due to the
+ambiguous pixels (e.g., tree canopies, clouds) that
+prevent a direct judgement from only the spectral
+features. Thanks to the digital elevation model
+(DEM) data readily available from sources such
+as United States Geological Survey (USGS), this
+work explores the use of an elevation map to im-
+prove flood extent mapping. We propose, EvaNet,
+an elevation-guided segmentation model based on
+the encoder-decoder architecture with two novel
+techniques: (1) a loss function encoding the phys-
+ical law of gravity that if a location is flooded
+(resp. dry), then its adjacent locations with a lower
+(resp. higher) elevation must also be flooded (resp.
+dry); (2) a new (de)convolution operation that in-
+tegrates the elevation map by a location-sensitive
+gating mechanism to regulate how much spectral
+features flow through adjacent layers. Extensive
+experiments show that EvaNet significantly outper-
+forms the U-Net baselines, and works as a perfect
+drop-in replacement for U-Net in existing solutions
+to flood extent mapping. Full paper with an extended appendix is available at: [https://uab.box.com/s/rjglwac0qswq13tlvi9axztqicc31lgp](https://github.com/MTSami/EvaNet/blob/master/full_version_with_appendix.pdf)
 </p>
 
 ## Quantitative Results
